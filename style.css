@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header{
+    background-color: #F3D7B7;
+}
+.head_nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+}
+.head_nav a{
+     color: #333333;
+}
+.head_main{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-size: 16px;
+    width: 600px;
+    
+}
+.left h2{
+    display: flex;
+    text-align: center;
+}
+.img40{
+    position: absolute;
+    top:30px;
+    left: 785px;
+}
+.ft{
+    width: 1445.6px;
+    height: 740px;
+}
+.cup{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-size: 18px;
+    width: 600px;
+    margin-left: 1000px;
+    margin-top: -350px;
+}
+.ftr{
+  width: 1700px;
+height: 510px;
+top: 1453px;
+
+background-color: #C99B67;
+}
+.ftr h2{
+  margin-left: 100px;
+  width: 397px;
+  height: 118px;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 700px;
+
+}
+.ftr p{
+    width: 639px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.rasm2{
+   margin-left: 1000px;
+   margin-top: -500px;
+}
+footer{
+    width: 1700px;
+    height: 100px;
+    margin-top: 200px;
+    background-color: #F3D7B7;
+    position: absolute;
+    top: 1600px;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+ul{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+    left: 225px;
+}
+footer ul a{
+    color:  black;
+    display: flex;
+}
+.img12{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 200px;
+}
